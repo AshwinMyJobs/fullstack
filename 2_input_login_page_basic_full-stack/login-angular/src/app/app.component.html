@@ -1,0 +1,11 @@
+<h1> Angular 17 template-based contact form by example </h1>
+
+<form #myform = "ngForm" (ngSubmit) = "onSubmit(myform)" >
+  <input type = "text" name = "userName" placeholder = "UserName" ngModel>
+  <br/>
+
+  <input type = "password" name = "passWord" placeholder = "Password" ngModel>
+  <br/>
+  
+  <input type = "submit" value = "Send">
+</form>
